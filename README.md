@@ -1,4 +1,4 @@
-ICS
+DICS
 ===
 
-Intelligent chat service
+Duye Intelligent Chat Service
