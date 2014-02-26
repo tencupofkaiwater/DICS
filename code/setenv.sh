@@ -4,4 +4,4 @@ export DUYE_LIB=$DUYE_ROOT/duye/lib
 export DUYE_BIN=$DUYE_ROOT/duye/bin
 
 #setting dics project root path
-export DICS_ROOT=/root/share/DICS/code
+export DICS_ROOT=/root/share/DICS/trunk

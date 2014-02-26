@@ -1,0 +1,22 @@
+/root/share/DICS/trunk/code/client/output/obj/dics_client_main.o: \
+ /root/share/DICS/trunk/code/client/src/dics_client_main.cpp \
+ /root/share/duye/trunk/duye/posix/duye_posix \
+ /root/share/duye/trunk/duye/posix/duye_ipc \
+ /root/share/duye/trunk/duye/posix/ipc/inc/duye_pipe.h \
+ /root/share/duye/trunk/duye/posix/inc/duye_posix_def.h \
+ /root/share/duye/trunk/duye/inc/duye_type.h \
+ /root/share/duye/trunk/duye/posix/ipc/inc/duye_shm.h \
+ /root/share/duye/trunk/duye/posix/duye_memory \
+ /root/share/duye/trunk/duye/posix/memory/inc/duye_memory.h \
+ /root/share/duye/trunk/duye/posix/duye_socket \
+ /root/share/duye/trunk/duye/posix/socket/inc/duye_socket.h \
+ /root/share/duye/trunk/duye/posix/duye_stdio \
+ /root/share/duye/trunk/duye/posix/stdio/inc/duye_stdio.h \
+ /root/share/duye/trunk/duye/posix/duye_thread \
+ /root/share/duye/trunk/duye/posix/thread/inc/duye_condition.h \
+ /root/share/duye/trunk/duye/posix/thread/inc/duye_lock.h \
+ /root/share/duye/trunk/duye/posix/thread/inc/duye_thread.h \
+ /root/share/duye/trunk/duye/posix/thread/inc/duye_thread_pool.h \
+ /root/share/DICS/trunk/code/client/inc/dics_client_startup.h \
+ /root/share/DICS/trunk/code/client/inc/dics_client_def.h \
+ /root/share/DICS/trunk/code/inc/dics_def.h

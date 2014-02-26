@@ -4,25 +4,20 @@
 *
 *************************************************************************************/
 /**
-* @file	    dics_client_def.h
+* @file	    dics_limbs.cpp
 * @version     
 * @brief      
 * @author   duye
-* @date     2014-02-25
+* @date     2014-02-26
 * @note 
 *
-*  1. 2014-02-25 duye Created this file
+*  1. 2014-02-26 duye Created this file
 * 
 */
 
-#pragma once
+#include <dics_limbs.h>
 
-#include <dics_def.h>
+DICS_SERVICE_NS_BEG
 
-// DICS client namespace
-#define DICS_CLIENT_NS_BEG namespace dics { namespace client {
-#define DICS_CLIENT_NS_END }}
 
-DICS_CLIENT_NS_BEG
-// define type
-DICS_CLIENT_NS_END
+DICS_SERVICE_NS_END

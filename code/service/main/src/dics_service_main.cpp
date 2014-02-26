@@ -4,7 +4,7 @@
 *
 *************************************************************************************/
 /**
-* @file	    dics_client_def.h
+* @file		dics_service_main.cpp
 * @version     
 * @brief      
 * @author   duye
@@ -15,14 +15,19 @@
 * 
 */
 
-#pragma once
+#include <stdio.h>
+#include <duye/posix/duye_posix>
+#include <dics_service_startup.h>
 
-#include <dics_def.h>
+int main()
+{
+	printf("DICS Service Start \n");
+	
+	for (;;)
+	{
+	    printf("DICS Service working. \n");
+	    sleep(2);
+	}
 
-// DICS client namespace
-#define DICS_CLIENT_NS_BEG namespace dics { namespace client {
-#define DICS_CLIENT_NS_END }}
-
-DICS_CLIENT_NS_BEG
-// define type
-DICS_CLIENT_NS_END
+	return 0;
+}

@@ -4,7 +4,7 @@
 *
 *************************************************************************************/
 /**
-* @file	    dics_client_def.h
+* @file	    dics_service_startup.h
 * @version     
 * @brief      
 * @author   duye
@@ -17,12 +17,15 @@
 
 #pragma once
 
-#include <dics_def.h>
+#include <dics_service_def.h>
 
-// DICS client namespace
-#define DICS_CLIENT_NS_BEG namespace dics { namespace client {
-#define DICS_CLIENT_NS_END }}
+DICS_SERVICE_NS_BEG
 
-DICS_CLIENT_NS_BEG
-// define type
-DICS_CLIENT_NS_END
+class ServiceStartup
+{
+public:
+    ServiceStartup();
+    ~ServiceStartup();
+};
+
+DICS_SERVICE_NS_END

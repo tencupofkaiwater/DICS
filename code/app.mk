@@ -1,5 +1,5 @@
 INCLUDES += $(DUYE_ROOT) \
-            $(DICS_ROOT)/inc
+            $(DICS_ROOT)/code/inc
 
 LIBS += 
 

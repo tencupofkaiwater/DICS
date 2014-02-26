@@ -4,25 +4,28 @@
 *
 *************************************************************************************/
 /**
-* @file	    dics_client_def.h
+* @file	    dics_brain.h
 * @version     
 * @brief      
 * @author   duye
-* @date     2014-02-25
+* @date     2014-02-26
 * @note 
 *
-*  1. 2014-02-25 duye Created this file
+*  1. 2014-02-26 duye Created this file
 * 
 */
 
 #pragma once
 
-#include <dics_def.h>
+#include <dics_service_def.h>
 
-// DICS client namespace
-#define DICS_CLIENT_NS_BEG namespace dics { namespace client {
-#define DICS_CLIENT_NS_END }}
+DICS_BRAIN_NS_BEG
 
-DICS_CLIENT_NS_BEG
-// define type
-DICS_CLIENT_NS_END
+class Brain
+{
+public:
+    Brain();
+    ~Brain();
+};
+
+DICS_BRAIN_NS_END
