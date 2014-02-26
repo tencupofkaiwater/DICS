@@ -1,12 +1,22 @@
-PRONAME:= dics_service 
-TARGET:= $(PRONAME)
-PRE_DEFINED := 
-BUILD_PATH := $(shell pwd)
-INCLUDES := $(BUILD_PATH)/inc
-LIBS_PATH := $(DUYE_LIB)
-LIBS := dposix
+all: tag_brain tag_limbs tag_main
 
-include ../app.mk
+clean:
+	$(MAKE) -C brain clean
+	$(MAKE) -C limbs clean
+	$(MAKE) -C main clean
 
-$(shell mkdir -p ../bin)
-$(shell cp $(BUILD_PATH)/output/bin/* ../bin)
+cleanall:
+	$(MAKE) -C brain cleanall
+	$(MAKE) -C limbs cleanall
+	$(MAKE) -C main cleanall
+	rm ./lib -rf
+	rm ./bin -rf
+
+tag_brain:    
+	$(MAKE) -C brain
+
+tag_limbs:    
+	$(MAKE) -C limbs 
+
+tag_main:    
+	$(MAKE) -C main 
