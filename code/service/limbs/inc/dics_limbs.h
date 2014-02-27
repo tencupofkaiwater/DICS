@@ -24,8 +24,15 @@ DICS_SERVICE_NS_BEG
 class Limbs
 {
 public:
-    Limbs();
-    ~Limbs();
+    Limbs() {}
+    virtual ~Limbs() {}
 };
+
+class Mouth : public Limbs
+{
+public:
+    Mouth();
+    virtual ~Mouth();
+}
 
 DICS_SERVICE_NS_END

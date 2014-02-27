@@ -5,6 +5,7 @@ BUILD_PATH := $(shell pwd)
 INCLUDES := $(BUILD_PATH)/inc \
             ../brain/inc \
             ../limbs/inc \
+            ../inc
 
 LIBS_PATH := $(DUYE_LIB) \
             ../lib

@@ -26,6 +26,9 @@ class ServiceStartup
 public:
     ServiceStartup();
     ~ServiceStartup();
+
+private:
+    
 };
 
 DICS_SERVICE_NS_END
