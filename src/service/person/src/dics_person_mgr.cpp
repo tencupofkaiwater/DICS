@@ -4,7 +4,7 @@
 *
 *************************************************************************************/
 /**
-* @file	    dics_brain_mgr.cpp
+* @file	    dics_person_mgr.cpp
 * @version     
 * @brief      
 * @author   duye
@@ -15,20 +15,16 @@
 * 
 */
 
-#pragma once
+#include <dics_person_mgr.h>
 
-#include <dics_brain_mgr.h>
+DICS_PERSON_NS_BEG
 
-DICS_BRAIN_NS_BEG
-
-BrainMgr::BrainMgr()
+PersonMgr::PersonMgr()
 {
 }
 
-BrainMgr::~BrainMgr()
+PersonMgr::~PersonMgr()
 {
 }
 
-
-
-DICS_BRAIN_NS_END
+DICS_PERSON_NS_END

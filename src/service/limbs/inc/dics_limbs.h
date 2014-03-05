@@ -19,7 +19,7 @@
 
 #include <dics_service_def.h>
 
-DICS_SERVICE_NS_BEG
+DICS_LIMBS_NS_BEG
 
 class Limbs
 {
@@ -35,4 +35,4 @@ public:
     virtual ~Mouth();
 };
 
-DICS_SERVICE_NS_END
+DICS_LIMBS_NS_END

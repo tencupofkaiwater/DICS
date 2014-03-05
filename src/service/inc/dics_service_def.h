@@ -27,6 +27,14 @@ DICS_SERVICE_NS_BEG
 // define type
 DICS_SERVICE_NS_END
 
+// DICS service body namespace
+#define DICS_BODY_NS_BEG namespace dics { namespace service { namespace body {
+#define DICS_BODY_NS_END }}}
+
+DICS_BODY_NS_BEG
+// define type
+DICS_BODY_NS_END
+
 // DICS service brain namespace
 #define DICS_BRAIN_NS_BEG namespace dics { namespace service { namespace brain {
 #define DICS_BRAIN_NS_END }}}
@@ -42,3 +50,11 @@ DICS_BRAIN_NS_END
 DICS_LIMBS_NS_BEG
 // define type
 DICS_LIMBS_NS_END
+
+// DICS service person namespace
+#define DICS_PERSON_NS_BEG namespace dics { namespace service { namespace person {
+#define DICS_PERSON_NS_END }}}
+
+DICS_PERSON_NS_BEG
+// define type
+DICS_PERSON_NS_END

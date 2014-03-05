@@ -16,3 +16,6 @@ include ../../app.mk
 
 $(shell mkdir -p ../bin)
 $(shell cp $(BUILD_PATH)/output/bin/* ../bin)
+
+$(shell mkdir -p ../../bin)
+$(shell cp $(BUILD_PATH)/output/bin/* ../../bin)

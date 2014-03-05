@@ -15,9 +15,7 @@
 * 
 */
 
-#include <dics_limbs.h>
+#include <dics_person.h>
 
-DICS_SERVICE_NS_BEG
-
-
-DICS_SERVICE_NS_END
+DICS_PERSON_NS_BEG
+DICS_PERSON_NS_END

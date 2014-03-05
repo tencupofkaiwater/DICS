@@ -21,26 +21,25 @@
 #include <map>
 
 #include <dics_service_def.h>
-#include <dics_brain.h>
+#include <dics_person.h>
 
-DICS_BRAIN_NS_BEG
+DICS_PERSON_NS_BEG
 
-typedef std::map<BrainId, Brain*> BrainMap;
+typedef std::map<PersonId, Person*> PersonMap;
 
 class PersonMgr
 {
 public:
-    PersionMgr();
-    ~PersionMgr();
+    PersonMgr();
+    ~PersonMgr();
 
-    Brain* HatchPerson();
-    Brain* CreateBrain(const BrainType& brainType);
-    Brain* SearchBrain(const BrainId& brainId);
-    D_Result ReleaseBrain(const BrainId& brainId);
-    D_Result ReleaseAllBrain();
+    Person* HatchPerson() { return NULL; }
+    Person* SearchPerson(const PersonId& personId) { return NULL; }
+    D_Result KillPerson(const PersonId& personId) { return D_SUCCESS; }
+    D_Result ReleaseAllPerson() { return D_SUCCESS; }
 
 private:
-    BrainMap        m_brainMap;
+    PersonMap        m_personMap;
 };
 
-DICS_BRAIN_NS_END
+DICS_PERSON_NS_END

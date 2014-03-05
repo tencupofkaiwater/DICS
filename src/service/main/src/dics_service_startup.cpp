@@ -15,11 +15,10 @@
 * 
 */
 
-#pragma once
-
-#include <dics_service_def.h>
+#include <dics_service_startup.h>
 
 DICS_SERVICE_NS_BEG
+
 ServiceStartup::ServiceStartup()
 {
 }

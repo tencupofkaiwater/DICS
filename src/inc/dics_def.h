@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include <duye/duye_base.h>
+#include <duye/duye_base>
 
 // DICS namespace
 #define DICS_NS_BEG namespace dics {

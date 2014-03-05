@@ -17,10 +17,11 @@
 
 #pragma once
 
-#include <dics_person.h>
-#include <>
+#include <dics_service_def.h>
 
-DICS_SERVICE_NS_BEG
+DICS_PERSON_NS_BEG
+
+typedef D_UInt64 PersonId;
 
 class Person
 {
@@ -32,4 +33,4 @@ public:
     
 };
 
-DICS_SERVICE_NS_END
+DICS_PERSON_NS_END

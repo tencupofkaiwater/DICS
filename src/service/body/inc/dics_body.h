@@ -19,7 +19,7 @@
 
 #include <dics_service_def.h>
 
-DICS_SERVICE_NS_BEG
+DICS_BODY_NS_BEG
 
 enum BodyGender
 {
@@ -43,20 +43,20 @@ class  GoodBody: public Body
 public:
     GoodBody() {}
     virtual ~GoodBody() {}
-}
+};
 
 class  NormalBody: public Body
 {
 public:
     NormalBody() {}
     virtual ~NormalBody() {}
-}
+};
 
 class  CrippleBody: public Body
 {
 public:
     CrippleBody() {}
     virtual ~CrippleBody() {}
-}
+};
 
-DICS_SERVICE_NS_END
+DICS_BODY_NS_END
