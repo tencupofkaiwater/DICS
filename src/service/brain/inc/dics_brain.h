@@ -45,7 +45,7 @@ enum BrainType
 class BrainBaseAction
 {
 public:
-    virtual ~BrainAction() {}
+    virtual ~BrainBaseAction() {}
     virtual D_Result Thinking(const std::string& inputInfo, std::string& outputRet) = 0;   
 };
 
@@ -55,10 +55,7 @@ public:
     Brain() {}
     virtual ~Brain() {}
 
-    virtual D_Result Thinking(const std::string& inputInfo, std::string& outputRet) = 0; 
-
-    void SetBrainProperty(const BrainProperty& brainProperty) { m_brainProperty = brainProperty; }
-    const BrainProperty& GetBrainProperty() const { return m_brainProperty; }
+    virtual D_Result Thinking(const std::string& inputInfo, std::string& outputRet) = 0;
 
     void SetBrainId(const BrainId& brainId) { m_brainId = brainId; }
     const BrainId& GetBrainId() const { return m_brainId; }

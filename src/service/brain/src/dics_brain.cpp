@@ -18,6 +18,4 @@
 #include <dics_brain.h>
 
 DICS_SERVICE_NS_BEG
-
-
 DICS_SERVICE_NS_END
