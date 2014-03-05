@@ -33,6 +33,6 @@ class Mouth : public Limbs
 public:
     Mouth();
     virtual ~Mouth();
-}
+};
 
 DICS_SERVICE_NS_END

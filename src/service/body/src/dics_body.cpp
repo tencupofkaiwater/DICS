@@ -15,9 +15,7 @@
 * 
 */
 
-#include <dics_limbs.h>
+#include <dics_body.h>
 
 DICS_SERVICE_NS_BEG
-
-
 DICS_SERVICE_NS_END

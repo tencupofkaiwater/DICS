@@ -51,7 +51,6 @@ clean :
 
 cleanall :
 	$(RM) $(BUILD_PATH)/output -rf
-	$(RM) $(DUYE_LIB)/$(TARGET).so -rf
 	@#touch `find . -name "*.cpp" | xargs`
 
 ifneq ($(MISSING_DEPS),)
