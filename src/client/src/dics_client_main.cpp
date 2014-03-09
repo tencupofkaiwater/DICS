@@ -16,7 +16,7 @@
 */
 
 #include <stdio.h>
-#include <duye/posix/duye_posix>
+#include <duye/duye_posix>
 #include <dics_client_startup.h>
 
 int main()
